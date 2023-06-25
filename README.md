@@ -7,9 +7,12 @@
 host="localhost", user="postgres", password="Pa$$w0rd", database="apache_logs"
 
 Вставьте пути до файла access в файлах main.py и config.ini в "log_file", а также путь до папки ProjectWork в файле config.ini в "log_path" 
-Пример: 
-log_file = log_file = C:/MyProject/access.log
-log_path = log_file = C:/MyProject/
+Мой пример: 
+log_file = C:/MyProject/access.log
+log_file = C:/MyProject/
+Ваш пример:
+log_file = D:/Downloads/Browser/MyProject-main/access.log
+log_path = D:/Downloads/Browser/MyProject-main/
 
 Запустите файл app.py
 
